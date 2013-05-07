@@ -40,10 +40,11 @@
     int easyWins = [[NSUserDefaults standardUserDefaults] integerForKey:WINSVSEASY];
     self.winsVsEasy.text = [NSString stringWithFormat:@"%i", easyWins];
     
+    int medWins = [[NSUserDefaults standardUserDefaults] integerForKey:WINSVSMEDIUM];
+    self.winsVsMedium.text = [NSString stringWithFormat:@"%i", medWins];
+    
     int hardWins = [[NSUserDefaults standardUserDefaults] integerForKey:WINSVSHARD];
     self.winsVsHard.text = [NSString stringWithFormat:@"%i", hardWins];
-    
-	// Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning
@@ -68,6 +69,26 @@
     
     [self.xPlayerTxtField resignFirstResponder];
     [self.oPlayerTxtField resignFirstResponder];
+}
+
+- (IBAction)backBtnTUI:(id)sender
+{
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+- (IBAction)hasChrome:(id)sender
+{
+    [[NSUserDefaults standardUserDefaults] setBool:YES  forKey:HASCHROME];
+}
+
+- (IBAction)hasGold:(id)sender
+{
+    [[NSUserDefaults standardUserDefaults] setBool:YES  forKey:HASGOLD];
+}
+
+- (IBAction)hasBling:(id)sender
+{
+    [[NSUserDefaults standardUserDefaults] setBool:YES  forKey:HASBLING];
 }
 
 - (IBAction)difficultyTUI:(UIButton *)sender

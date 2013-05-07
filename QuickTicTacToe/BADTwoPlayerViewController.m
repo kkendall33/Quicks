@@ -31,6 +31,8 @@
 {
     [super viewDidLoad];
     
+    self.trackedViewName = @"Two Player";
+    
     self.xPlayerName = [[NSUserDefaults standardUserDefaults] valueForKey:XPLAYERTAG];
     self.oPlayerName = [[NSUserDefaults standardUserDefaults] valueForKey:OPLAYERTAG];
     
@@ -43,8 +45,11 @@
     
     _spaceButton = [_spaceButton sortedArrayUsingDescriptors:[NSArray arrayWithObject:[NSSortDescriptor sortDescriptorWithKey:@"tag" ascending:YES]]];
     
-    _xImage = [UIImage imageNamed:@"tic-tac-toe-X.png"];
-    _oImage = [UIImage imageNamed:@"tic-tac-toe-o.jpg"];
+    NSString *xImageName = [[NSUserDefaults standardUserDefaults] valueForKey:XIMAGES];
+    NSString *oImageName = [[NSUserDefaults standardUserDefaults] valueForKey:OIMAGES];
+    
+    _xImage = [UIImage imageNamed:xImageName];//pieceX.png
+    _oImage = [UIImage imageNamed:oImageName];//pieceO.png
     
     _theGameState = [[BADGameState alloc] init];
 }
@@ -192,6 +197,17 @@
     }
 }
 
+- (IBAction)backBtnTUI:(id)sender
+{
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+- (IBAction)newGameTUI:(id)sender
+{
+    [self onStopPressed];
+    [self endGameWithResult:TTGameOverTie];
+}
+
 -(void)updateGameStatus
 {
     TTGameOverStatus gameOverStatus = [self checkGameOver];
@@ -270,10 +286,13 @@
                                               otherButtonTitles:nil, nil];
         alert.tag = fAlertView2;
         [alert show];
-    }else
+    }else if(alertView.tag == fAlertView2)
     {
         [self resetTimer];
         [self initGame];
+        
+        self.app = [[BADAppDelegate alloc] init];
+        [self.app checkRateApp];
     }
 }
 

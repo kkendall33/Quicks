@@ -18,9 +18,14 @@
 @property (weak, nonatomic) IBOutlet UILabel *onlineFastestTime;
 @property (weak, nonatomic) IBOutlet UILabel *winsVsEasy;
 @property (weak, nonatomic) IBOutlet UILabel *winsVsHard;
+@property (weak, nonatomic) IBOutlet UILabel *winsVsMedium;
 
 - (IBAction)saveSettingsBtn:(id)sender;
+- (IBAction)backBtnTUI:(id)sender;
+- (IBAction)hasChrome:(id)sender;
+- (IBAction)hasGold:(id)sender;
+- (IBAction)hasBling:(id)sender;
 
-- (IBAction)difficultyTUI:(UIButton *)sender;
+
 
 @end

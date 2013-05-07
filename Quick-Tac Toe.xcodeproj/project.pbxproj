@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40099E4E16DD5481000A6937 /* BADEmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40099E4D16DD5481000A6937 /* BADEmailViewController.m */; };
+		40099E4F16DD54B9000A6937 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B71D0416B51E0400774C4A /* MessageUI.framework */; };
+		4026768016E2CB4B00EC40A0 /* Facebook Icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4026767F16E2CB4B00EC40A0 /* Facebook Icon1.png */; };
+		40393EC616EB0E370020E689 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40393EC516EB0E370020E689 /* icon@2x.png */; };
+		409601C616F1189100117E08 /* Firework.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 409601C516F1189100117E08 /* Firework.mp3 */; };
+		409601C816F119C200117E08 /* Fireworks.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 409601C716F119C200117E08 /* Fireworks.mp3 */; };
+		4096E95A16EBC45D008A0516 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4096E95916EBC45D008A0516 /* icon.png */; };
+		409B96D816E1EADE00CF6A64 /* Share With Friends1.png in Resources */ = {isa = PBXBuildFile; fileRef = 409B96D716E1EADE00CF6A64 /* Share With Friends1.png */; };
+		40B7882616E076AF0037D55C /* Envelope.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B7882516E076AF0037D55C /* Envelope.png */; };
+		40FC28B716D96FE5000A81D9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40FC28B416D96FE5000A81D9 /* Default@2x.png */; };
+		40FC28B816D96FE5000A81D9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 40FC28B516D96FE5000A81D9 /* Default.png */; };
+		40FC28B916D96FE5000A81D9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40FC28B616D96FE5000A81D9 /* Default-568h@2x.png */; };
+		40FC28BD16D98755000A81D9 /* Setup Difficulty Button Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 40FC28BC16D98755000A81D9 /* Setup Difficulty Button Selected.png */; };
+		40FC28C416D98A11000A81D9 /* Setup Piece Color Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 40FC28C016D98A11000A81D9 /* Setup Piece Color Selected.png */; };
+		40FC28C516D98A11000A81D9 /* Setup Chrome XO Pair Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 40FC28C116D98A11000A81D9 /* Setup Chrome XO Pair Selected.png */; };
+		40FC28C616D98A11000A81D9 /* Setup Gold XO Pair Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 40FC28C216D98A11000A81D9 /* Setup Gold XO Pair Selected.png */; };
+		40FC28C716D98A11000A81D9 /* Setup Bling XO Pair Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 40FC28C316D98A11000A81D9 /* Setup Bling XO Pair Selected.png */; };
+		C93DE6DE16ED3E61007373B3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93DE6DD16ED3E61007373B3 /* AVFoundation.framework */; };
+		C93DE6E116ED3FE3007373B3 /* Cry No More.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93DE6E016ED3FE3007373B3 /* Cry No More.mp3 */; };
+		C93DE6E416EDAB1B007373B3 /* Fireworks And Crowd-SoundBible.com-81665534.wav in Resources */ = {isa = PBXBuildFile; fileRef = C93DE6E316EDAB1B007373B3 /* Fireworks And Crowd-SoundBible.com-81665534.wav */; };
+		C93DE6E616EDC664007373B3 /* Click2-Sebastian-759472264.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C93DE6E516EDC664007373B3 /* Click2-Sebastian-759472264.mp3 */; };
+		C93DE6E816EEA86E007373B3 /* Achievements Mock.png in Resources */ = {isa = PBXBuildFile; fileRef = C93DE6E716EEA86E007373B3 /* Achievements Mock.png */; };
+		C93DE6EA16EF067A007373B3 /* Achievement Badge Back.png in Resources */ = {isa = PBXBuildFile; fileRef = C93DE6E916EF067A007373B3 /* Achievement Badge Back.png */; };
+		C93DE6EC16EF0D87007373B3 /* Start Button.png in Resources */ = {isa = PBXBuildFile; fileRef = C93DE6EB16EF0D87007373B3 /* Start Button.png */; };
+		C97D364416994D0C00031A3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97D364316994D0C00031A3E /* UIKit.framework */; };
+		C97D364616994D0C00031A3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97D364516994D0C00031A3E /* Foundation.framework */; };
+		C97D364816994D0C00031A3E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97D364716994D0C00031A3E /* CoreGraphics.framework */; };
+		C97D364E16994D0C00031A3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C97D364C16994D0C00031A3E /* InfoPlist.strings */; };
+		C97D365016994D0C00031A3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C97D364F16994D0C00031A3E /* main.m */; };
+		C97D365416994D0C00031A3E /* BADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C97D365316994D0C00031A3E /* BADAppDelegate.m */; };
+		C97D365D16994D0C00031A3E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C97D365B16994D0C00031A3E /* MainStoryboard.storyboard */; };
+		C97D366016994D0C00031A3E /* BADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C97D365F16994D0C00031A3E /* BADViewController.m */; };
+		C97D366916994E6700031A3E /* BADMainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = C97D366816994E6700031A3E /* BADMainMenu.m */; };
+		C97D36731699602400031A3E /* TicTacToeBoard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C97D36721699602400031A3E /* TicTacToeBoard.jpg */; };
+		C97D3675169966B900031A3E /* Settings.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C97D3674169966B900031A3E /* Settings.jpg */; };
+		C97D367A1699745400031A3E /* BADSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C97D36791699745400031A3E /* BADSettingsViewController.m */; };
+		C97D367D1699747F00031A3E /* BADExtrasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C97D367C1699747F00031A3E /* BADExtrasViewController.m */; };
+		C97D36801699749600031A3E /* BADSinglePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C97D367F1699749600031A3E /* BADSinglePlayerViewController.m */; };
+		C97D3683169974AA00031A3E /* BADMultiplayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C97D3682169974AA00031A3E /* BADMultiplayerViewController.m */; };
+		C97D3687169976E500031A3E /* tic-tac-toe-o.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C97D3685169976E500031A3E /* tic-tac-toe-o.jpg */; };
+		C97D3688169976E500031A3E /* tic-tac-toe-X.png in Resources */ = {isa = PBXBuildFile; fileRef = C97D3686169976E500031A3E /* tic-tac-toe-X.png */; };
+		C97D368C16997AEC00031A3E /* BADGameState.m in Sources */ = {isa = PBXBuildFile; fileRef = C97D368B16997AEC00031A3E /* BADGameState.m */; };
+		C97D368E169A2AD900031A3E /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97D368D169A2AD900031A3E /* GameKit.framework */; };
+		C97D3697169A781D00031A3E /* BADSingleSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C97D3696169A781D00031A3E /* BADSingleSetupViewController.m */; };
+		C983813816C9D25B006C376E /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C983813716C9D25A006C376E /* iAd.framework */; };
+		C983813B16CCB6AE006C376E /* Wheel Button.png in Resources */ = {isa = PBXBuildFile; fileRef = C983813A16CCB6AC006C376E /* Wheel Button.png */; };
+		C983814016CCC587006C376E /* Done Badge Bling.png in Resources */ = {isa = PBXBuildFile; fileRef = C983813C16CCC57E006C376E /* Done Badge Bling.png */; };
+		C983814116CCC587006C376E /* Done Badge Chrome.png in Resources */ = {isa = PBXBuildFile; fileRef = C983813D16CCC580006C376E /* Done Badge Chrome.png */; };
+		C983814216CCC587006C376E /* Done Badge Gold.png in Resources */ = {isa = PBXBuildFile; fileRef = C983813E16CCC582006C376E /* Done Badge Gold.png */; };
+		C983814316CCC587006C376E /* Done Badge.png in Resources */ = {isa = PBXBuildFile; fileRef = C983813F16CCC584006C376E /* Done Badge.png */; };
+		C985973116C42641009F320E /* Bottom Wheel Button1.png in Resources */ = {isa = PBXBuildFile; fileRef = C985972B16C42641009F320E /* Bottom Wheel Button1.png */; };
+		C985973216C42641009F320E /* Left Wheel Button1.png in Resources */ = {isa = PBXBuildFile; fileRef = C985972C16C42641009F320E /* Left Wheel Button1.png */; };
+		C985973416C42641009F320E /* Middle Wheel Button1.png in Resources */ = {isa = PBXBuildFile; fileRef = C985972E16C42641009F320E /* Middle Wheel Button1.png */; };
+		C985973516C42641009F320E /* Right Wheel Button1.png in Resources */ = {isa = PBXBuildFile; fileRef = C985972F16C42641009F320E /* Right Wheel Button1.png */; };
+		C985973616C42641009F320E /* Top Wheel Button1.png in Resources */ = {isa = PBXBuildFile; fileRef = C985973016C42641009F320E /* Top Wheel Button1.png */; };
+		C986770116D3DEC000C86296 /* arrow4.png in Resources */ = {isa = PBXBuildFile; fileRef = C986770016D3DEC000C86296 /* arrow4.png */; };
+		C986770516D4590A00C86296 /* Setup Page iPhone 4.png in Resources */ = {isa = PBXBuildFile; fileRef = C986770316D4590A00C86296 /* Setup Page iPhone 4.png */; };
+		C986770B16D45B6700C86296 /* Setup Bling XO Pair.png in Resources */ = {isa = PBXBuildFile; fileRef = C986770716D45B6700C86296 /* Setup Bling XO Pair.png */; };
+		C986770C16D45B6700C86296 /* Setup Chrome XO Pair.png in Resources */ = {isa = PBXBuildFile; fileRef = C986770816D45B6700C86296 /* Setup Chrome XO Pair.png */; };
+		C986770D16D45B6700C86296 /* Setup Gold XO Pair.png in Resources */ = {isa = PBXBuildFile; fileRef = C986770916D45B6700C86296 /* Setup Gold XO Pair.png */; };
+		C986770E16D45B6700C86296 /* Setup Piece Color.png in Resources */ = {isa = PBXBuildFile; fileRef = C986770A16D45B6700C86296 /* Setup Piece Color.png */; };
+		C986771316D45CAC00C86296 /* Setup Box 1.png in Resources */ = {isa = PBXBuildFile; fileRef = C986770F16D45CAC00C86296 /* Setup Box 1.png */; };
+		C986771416D45CAC00C86296 /* Setup Box 2.png in Resources */ = {isa = PBXBuildFile; fileRef = C986771016D45CAC00C86296 /* Setup Box 2.png */; };
+		C986771516D45CAC00C86296 /* Setup Box 3.png in Resources */ = {isa = PBXBuildFile; fileRef = C986771116D45CAC00C86296 /* Setup Box 3.png */; };
+		C986771616D45CAC00C86296 /* Tap to start Image.png in Resources */ = {isa = PBXBuildFile; fileRef = C986771216D45CAC00C86296 /* Tap to start Image.png */; };
+		C986771816D45F3D00C86296 /* Setup Difficulty Button.png in Resources */ = {isa = PBXBuildFile; fileRef = C986771716D45F3D00C86296 /* Setup Difficulty Button.png */; };
+		C986771C16D46EA000C86296 /* Facebook Badge.png in Resources */ = {isa = PBXBuildFile; fileRef = C986771B16D46EA000C86296 /* Facebook Badge.png */; };
+		C986771E16D4737200C86296 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C986771D16D4737200C86296 /* CoreData.framework */; };
+		C986771F16D4738200C86296 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B71D0016B51DF300774C4A /* SystemConfiguration.framework */; };
+		C986772616D4741A00C86296 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C986772516D4741A00C86296 /* libGoogleAnalytics.a */; };
+		C9B71C5E16AE645E00774C4A /* BADConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B71C5D16AE645E00774C4A /* BADConstants.m */; };
+		C9B71C6216AE763A00774C4A /* BADTwoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B71C6116AE763A00774C4A /* BADTwoPlayerViewController.m */; };
+		C9B71D0B16B51E2300774C4A /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B71D0A16B51E2300774C4A /* Twitter.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C9B71D1516B51E7F00774C4A /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B71D1416B51E7F00774C4A /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C9CA318E16BC339D000CAC4E /* DazFireworksController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CA318D16BC339D000CAC4E /* DazFireworksController.m */; };
+		C9CA319416C0A03B000CAC4E /* BADAchievements.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9CA319316C0A03A000CAC4E /* BADAchievements.xib */; };
+		C9CA319716C0A799000CAC4E /* BADAchievements.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CA319616C0A799000CAC4E /* BADAchievements.m */; };
+		C9CA319A16C364FA000CAC4E /* BADAchievementView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CA319916C364FA000CAC4E /* BADAchievementView.m */; };
+		C9CA319C16C365BB000CAC4E /* BADAchievementView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9CA319B16C365BB000CAC4E /* BADAchievementView.xib */; };
+		C9CA319F16C38342000CAC4E /* BADAchievementNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CA319E16C38342000CAC4E /* BADAchievementNotifier.m */; };
+		C9F309E616BA3F9B00FB31C2 /* Main Menu Background.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F309E516BA3F9B00FB31C2 /* Main Menu Background.png */; };
+		C9F309EA16BA415A00FB31C2 /* Back and Next Buttons.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F309E716BA415A00FB31C2 /* Back and Next Buttons.png */; };
+		C9F309F116BA532A00FB31C2 /* pieceO.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F309ED16BA532A00FB31C2 /* pieceO.png */; };
+		C9F309F216BA532A00FB31C2 /* pieceSmallO.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F309EE16BA532A00FB31C2 /* pieceSmallO.png */; };
+		C9F309F316BA532A00FB31C2 /* pieceSmallX.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F309EF16BA532A00FB31C2 /* pieceSmallX.png */; };
+		C9F309F416BA532A00FB31C2 /* pieceX.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F309F016BA532A00FB31C2 /* pieceX.png */; };
+		C9F309F916BA563C00FB31C2 /* Glowing O-Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F309F516BA563B00FB31C2 /* Glowing O-Yellow.png */; };
+		C9F309FA16BA563C00FB31C2 /* Glowing O.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F309F616BA563C00FB31C2 /* Glowing O.png */; };
+		C9F309FB16BA563C00FB31C2 /* Glowing X-Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F309F716BA563C00FB31C2 /* Glowing X-Yellow.png */; };
+		C9F309FC16BA563C00FB31C2 /* Glowing X.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F309F816BA563C00FB31C2 /* Glowing X.png */; };
+		C9F30A0416BAE9E000FB31C2 /* BADSetupSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F30A0216BAE9DE00FB31C2 /* BADSetupSingle.m */; };
+		C9F30A0516BAE9E000FB31C2 /* BADSetupSingle.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9F30A0316BAE9DF00FB31C2 /* BADSetupSingle.xib */; };
+		C9F30A0D16BB633800FB31C2 /* GameGrid.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F30A0A16BB633800FB31C2 /* GameGrid.png */; };
+		C9F30A0E16BB633800FB31C2 /* GameGridBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F30A0B16BB633800FB31C2 /* GameGridBackground.png */; };
+		C9F30A0F16BB633800FB31C2 /* GridBar.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F30A0C16BB633800FB31C2 /* GridBar.png */; };
+		C9F30A1616BB78B200FB31C2 /* BlingO.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F30A1016BB78B100FB31C2 /* BlingO.png */; };
+		C9F30A1716BB78B200FB31C2 /* BlingX.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F30A1116BB78B100FB31C2 /* BlingX.png */; };
+		C9F30A1816BB78B200FB31C2 /* ChromeO.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F30A1216BB78B100FB31C2 /* ChromeO.png */; };
+		C9F30A1916BB78B200FB31C2 /* ChromeX.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F30A1316BB78B100FB31C2 /* ChromeX.png */; };
+		C9F30A1A16BB78B200FB31C2 /* GoldO.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F30A1416BB78B200FB31C2 /* GoldO.png */; };
+		C9F30A1B16BB78B200FB31C2 /* GoldX.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F30A1516BB78B200FB31C2 /* GoldX.png */; };
+		C9F30A1F16BB9A1000FB31C2 /* BADCustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F30A1E16BB9A0F00FB31C2 /* BADCustomAlertView.m */; };
+		C9F30A2116BB9A3800FB31C2 /* BADCustomAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9F30A2016BB9A3800FB31C2 /* BADCustomAlertView.xib */; };
+		C9F30A3316BBA48600FB31C2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F30A3216BBA48500FB31C2 /* QuartzCore.framework */; };
+		C9F30A3616BBA6B000FB31C2 /* DazRing.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F30A3416BBA6AF00FB31C2 /* DazRing.png */; };
+		C9F30A3716BBA6B000FB31C2 /* DazStarOutline.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F30A3516BBA6AF00FB31C2 /* DazStarOutline.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		40099E4C16DD5481000A6937 /* BADEmailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BADEmailViewController.h; path = ../BADEmailViewController.h; sourceTree = "<group>"; };
+		40099E4D16DD5481000A6937 /* BADEmailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BADEmailViewController.m; path = ../BADEmailViewController.m; sourceTree = "<group>"; };
+		4026767F16E2CB4B00EC40A0 /* Facebook Icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facebook Icon1.png"; sourceTree = "<group>"; };
+		40393EC516EB0E370020E689 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		409601C516F1189100117E08 /* Firework.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Firework.mp3; sourceTree = "<group>"; };
+		409601C716F119C200117E08 /* Fireworks.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fireworks.mp3; sourceTree = "<group>"; };
+		4096E95916EBC45D008A0516 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		409B96D716E1EADE00CF6A64 /* Share With Friends1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Share With Friends1.png"; sourceTree = "<group>"; };
+		40B7882516E076AF0037D55C /* Envelope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Envelope.png; sourceTree = "<group>"; };
+		40FC28B416D96FE5000A81D9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		40FC28B516D96FE5000A81D9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		40FC28B616D96FE5000A81D9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		40FC28BC16D98755000A81D9 /* Setup Difficulty Button Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Setup Difficulty Button Selected.png"; sourceTree = "<group>"; };
+		40FC28C016D98A11000A81D9 /* Setup Piece Color Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Setup Piece Color Selected.png"; sourceTree = "<group>"; };
+		40FC28C116D98A11000A81D9 /* Setup Chrome XO Pair Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Setup Chrome XO Pair Selected.png"; sourceTree = "<group>"; };
+		40FC28C216D98A11000A81D9 /* Setup Gold XO Pair Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Setup Gold XO Pair Selected.png"; sourceTree = "<group>"; };
+		40FC28C316D98A11000A81D9 /* Setup Bling XO Pair Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Setup Bling XO Pair Selected.png"; sourceTree = "<group>"; };
+		C93DE6DD16ED3E61007373B3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C93DE6E016ED3FE3007373B3 /* Cry No More.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cry No More.mp3"; sourceTree = "<group>"; };
+		C93DE6E316EDAB1B007373B3 /* Fireworks And Crowd-SoundBible.com-81665534.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Fireworks And Crowd-SoundBible.com-81665534.wav"; sourceTree = "<group>"; };
+		C93DE6E516EDC664007373B3 /* Click2-Sebastian-759472264.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Click2-Sebastian-759472264.mp3"; sourceTree = "<group>"; };
+		C93DE6E716EEA86E007373B3 /* Achievements Mock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Achievements Mock.png"; sourceTree = "<group>"; };
+		C93DE6E916EF067A007373B3 /* Achievement Badge Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Achievement Badge Back.png"; sourceTree = "<group>"; };
+		C93DE6EB16EF0D87007373B3 /* Start Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Start Button.png"; sourceTree = "<group>"; };
+		C97D363F16994D0C00031A3E /* Quick-Tac Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quick-Tac Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97D364316994D0C00031A3E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C97D364516994D0C00031A3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C97D364716994D0C00031A3E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C97D364B16994D0C00031A3E /* Quick-Tac Toe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quick-Tac Toe-Info.plist"; sourceTree = "<group>"; };
+		C97D364D16994D0C00031A3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C97D364F16994D0C00031A3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C97D365116994D0C00031A3E /* Quick-Tac Toe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quick-Tac Toe-Prefix.pch"; sourceTree = "<group>"; };
+		C97D365216994D0C00031A3E /* BADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BADAppDelegate.h; sourceTree = "<group>"; };
+		C97D365316994D0C00031A3E /* BADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BADAppDelegate.m; sourceTree = "<group>"; };
+		C97D365C16994D0C00031A3E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C97D365E16994D0C00031A3E /* BADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BADViewController.h; sourceTree = "<group>"; };
+		C97D365F16994D0C00031A3E /* BADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BADViewController.m; sourceTree = "<group>"; };
+		C97D366716994E6700031A3E /* BADMainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BADMainMenu.h; sourceTree = "<group>"; };
+		C97D366816994E6700031A3E /* BADMainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BADMainMenu.m; sourceTree = "<group>"; };
+		C97D36721699602400031A3E /* TicTacToeBoard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TicTacToeBoard.jpg; sourceTree = "<group>"; };
+		C97D3674169966B900031A3E /* Settings.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Settings.jpg; sourceTree = "<group>"; };
+		C97D36781699745400031A3E /* BADSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BADSettingsViewController.h; sourceTree = "<group>"; };
+		C97D36791699745400031A3E /* BADSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BADSettingsViewController.m; sourceTree = "<group>"; };
+		C97D367B1699747F00031A3E /* BADExtrasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BADExtrasViewController.h; sourceTree = "<group>"; };
+		C97D367C1699747F00031A3E /* BADExtrasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BADExtrasViewController.m; sourceTree = "<group>"; };
+		C97D367E1699749600031A3E /* BADSinglePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BADSinglePlayerViewController.h; sourceTree = "<group>"; };
+		C97D367F1699749600031A3E /* BADSinglePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BADSinglePlayerViewController.m; sourceTree = "<group>"; };
+		C97D3681169974AA00031A3E /* BADMultiplayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BADMultiplayerViewController.h; sourceTree = "<group>"; };
+		C97D3682169974AA00031A3E /* BADMultiplayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BADMultiplayerViewController.m; sourceTree = "<group>"; };
+		C97D3685169976E500031A3E /* tic-tac-toe-o.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tic-tac-toe-o.jpg"; sourceTree = "<group>"; };
+		C97D3686169976E500031A3E /* tic-tac-toe-X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tic-tac-toe-X.png"; sourceTree = "<group>"; };
+		C97D368A16997AEC00031A3E /* BADGameState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BADGameState.h; sourceTree = "<group>"; };
+		C97D368B16997AEC00031A3E /* BADGameState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BADGameState.m; sourceTree = "<group>"; };
+		C97D368D169A2AD900031A3E /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		C97D3695169A781D00031A3E /* BADSingleSetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BADSingleSetupViewController.h; sourceTree = "<group>"; };
+		C97D3696169A781D00031A3E /* BADSingleSetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BADSingleSetupViewController.m; sourceTree = "<group>"; };
+		C983813716C9D25A006C376E /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		C983813A16CCB6AC006C376E /* Wheel Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wheel Button.png"; sourceTree = "<group>"; };
+		C983813C16CCC57E006C376E /* Done Badge Bling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Done Badge Bling.png"; sourceTree = "<group>"; };
+		C983813D16CCC580006C376E /* Done Badge Chrome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Done Badge Chrome.png"; sourceTree = "<group>"; };
+		C983813E16CCC582006C376E /* Done Badge Gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Done Badge Gold.png"; sourceTree = "<group>"; };
+		C983813F16CCC584006C376E /* Done Badge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Done Badge.png"; sourceTree = "<group>"; };
+		C985972B16C42641009F320E /* Bottom Wheel Button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bottom Wheel Button1.png"; sourceTree = "<group>"; };
+		C985972C16C42641009F320E /* Left Wheel Button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Left Wheel Button1.png"; sourceTree = "<group>"; };
+		C985972E16C42641009F320E /* Middle Wheel Button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Middle Wheel Button1.png"; sourceTree = "<group>"; };
+		C985972F16C42641009F320E /* Right Wheel Button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Right Wheel Button1.png"; sourceTree = "<group>"; };
+		C985973016C42641009F320E /* Top Wheel Button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Top Wheel Button1.png"; sourceTree = "<group>"; };
+		C986770016D3DEC000C86296 /* arrow4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow4.png; sourceTree = "<group>"; };
+		C986770316D4590A00C86296 /* Setup Page iPhone 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Setup Page iPhone 4.png"; sourceTree = "<group>"; };
+		C986770716D45B6700C86296 /* Setup Bling XO Pair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Setup Bling XO Pair.png"; sourceTree = "<group>"; };
+		C986770816D45B6700C86296 /* Setup Chrome XO Pair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Setup Chrome XO Pair.png"; sourceTree = "<group>"; };
+		C986770916D45B6700C86296 /* Setup Gold XO Pair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Setup Gold XO Pair.png"; sourceTree = "<group>"; };
+		C986770A16D45B6700C86296 /* Setup Piece Color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Setup Piece Color.png"; sourceTree = "<group>"; };
+		C986770F16D45CAC00C86296 /* Setup Box 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Setup Box 1.png"; sourceTree = "<group>"; };
+		C986771016D45CAC00C86296 /* Setup Box 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Setup Box 2.png"; sourceTree = "<group>"; };
+		C986771116D45CAC00C86296 /* Setup Box 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Setup Box 3.png"; sourceTree = "<group>"; };
+		C986771216D45CAC00C86296 /* Tap to start Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tap to start Image.png"; sourceTree = "<group>"; };
+		C986771716D45F3D00C86296 /* Setup Difficulty Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Setup Difficulty Button.png"; sourceTree = "<group>"; };
+		C986771B16D46EA000C86296 /* Facebook Badge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facebook Badge.png"; sourceTree = "<group>"; };
+		C986771D16D4737200C86296 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C986772016D4741A00C86296 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAI.h; path = QuickTicTacToe/GAITracker/GAI.h; sourceTree = "<group>"; };
+		C986772116D4741A00C86296 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAITrackedViewController.h; path = QuickTicTacToe/GAITracker/GAITrackedViewController.h; sourceTree = "<group>"; };
+		C986772216D4741A00C86296 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAITracker.h; path = QuickTicTacToe/GAITracker/GAITracker.h; sourceTree = "<group>"; };
+		C986772316D4741A00C86296 /* GAITransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAITransaction.h; path = QuickTicTacToe/GAITracker/GAITransaction.h; sourceTree = "<group>"; };
+		C986772416D4741A00C86296 /* GAITransactionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAITransactionItem.h; path = QuickTicTacToe/GAITracker/GAITransactionItem.h; sourceTree = "<group>"; };
+		C986772516D4741A00C86296 /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalytics.a; path = QuickTicTacToe/GAITracker/libGoogleAnalytics.a; sourceTree = "<group>"; };
+		C9B71C5C16AE645E00774C4A /* BADConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BADConstants.h; sourceTree = "<group>"; };
+		C9B71C5D16AE645E00774C4A /* BADConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BADConstants.m; sourceTree = "<group>"; };
+		C9B71C6016AE763A00774C4A /* BADTwoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BADTwoPlayerViewController.h; sourceTree = "<group>"; };
+		C9B71C6116AE763A00774C4A /* BADTwoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BADTwoPlayerViewController.m; sourceTree = "<group>"; };
+		C9B71D0016B51DF300774C4A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C9B71D0216B51DFC00774C4A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C9B71D0416B51E0400774C4A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		C9B71D0616B51E0D00774C4A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C9B71D0816B51E1500774C4A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C9B71D0A16B51E2300774C4A /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		C9B71D0C16B51E3500774C4A /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		C9B71D0E16B51E5300774C4A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		C9B71D1016B51E6100774C4A /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		C9B71D1216B51E7500774C4A /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		C9B71D1416B51E7F00774C4A /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		C9CA318C16BC339D000CAC4E /* DazFireworksController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DazFireworksController.h; sourceTree = "<group>"; };
+		C9CA318D16BC339D000CAC4E /* DazFireworksController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DazFireworksController.m; sourceTree = "<group>"; };
+		C9CA319316C0A03A000CAC4E /* BADAchievements.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BADAchievements.xib; sourceTree = "<group>"; };
+		C9CA319516C0A798000CAC4E /* BADAchievements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BADAchievements.h; sourceTree = "<group>"; };
+		C9CA319616C0A799000CAC4E /* BADAchievements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BADAchievements.m; sourceTree = "<group>"; };
+		C9CA319816C364F9000CAC4E /* BADAchievementView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BADAchievementView.h; sourceTree = "<group>"; };
+		C9CA319916C364FA000CAC4E /* BADAchievementView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BADAchievementView.m; sourceTree = "<group>"; };
+		C9CA319B16C365BB000CAC4E /* BADAchievementView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BADAchievementView.xib; sourceTree = "<group>"; };
+		C9CA319D16C38341000CAC4E /* BADAchievementNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BADAchievementNotifier.h; sourceTree = "<group>"; };
+		C9CA319E16C38342000CAC4E /* BADAchievementNotifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BADAchievementNotifier.m; sourceTree = "<group>"; };
+		C9F309E516BA3F9B00FB31C2 /* Main Menu Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Main Menu Background.png"; sourceTree = "<group>"; };
+		C9F309E716BA415A00FB31C2 /* Back and Next Buttons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back and Next Buttons.png"; sourceTree = "<group>"; };
+		C9F309ED16BA532A00FB31C2 /* pieceO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pieceO.png; sourceTree = "<group>"; };
+		C9F309EE16BA532A00FB31C2 /* pieceSmallO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pieceSmallO.png; sourceTree = "<group>"; };
+		C9F309EF16BA532A00FB31C2 /* pieceSmallX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pieceSmallX.png; sourceTree = "<group>"; };
+		C9F309F016BA532A00FB31C2 /* pieceX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pieceX.png; sourceTree = "<group>"; };
+		C9F309F516BA563B00FB31C2 /* Glowing O-Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Glowing O-Yellow.png"; sourceTree = "<group>"; };
+		C9F309F616BA563C00FB31C2 /* Glowing O.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Glowing O.png"; sourceTree = "<group>"; };
+		C9F309F716BA563C00FB31C2 /* Glowing X-Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Glowing X-Yellow.png"; sourceTree = "<group>"; };
+		C9F309F816BA563C00FB31C2 /* Glowing X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Glowing X.png"; sourceTree = "<group>"; };
+		C9F30A0116BAE9DE00FB31C2 /* BADSetupSingle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BADSetupSingle.h; sourceTree = "<group>"; };
+		C9F30A0216BAE9DE00FB31C2 /* BADSetupSingle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BADSetupSingle.m; sourceTree = "<group>"; };
+		C9F30A0316BAE9DF00FB31C2 /* BADSetupSingle.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BADSetupSingle.xib; sourceTree = "<group>"; };
+		C9F30A0A16BB633800FB31C2 /* GameGrid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameGrid.png; sourceTree = "<group>"; };
+		C9F30A0B16BB633800FB31C2 /* GameGridBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameGridBackground.png; sourceTree = "<group>"; };
+		C9F30A0C16BB633800FB31C2 /* GridBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GridBar.png; sourceTree = "<group>"; };
+		C9F30A1016BB78B100FB31C2 /* BlingO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlingO.png; sourceTree = "<group>"; };
+		C9F30A1116BB78B100FB31C2 /* BlingX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlingX.png; sourceTree = "<group>"; };
+		C9F30A1216BB78B100FB31C2 /* ChromeO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChromeO.png; sourceTree = "<group>"; };
+		C9F30A1316BB78B100FB31C2 /* ChromeX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChromeX.png; sourceTree = "<group>"; };
+		C9F30A1416BB78B200FB31C2 /* GoldO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoldO.png; sourceTree = "<group>"; };
+		C9F30A1516BB78B200FB31C2 /* GoldX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoldX.png; sourceTree = "<group>"; };
+		C9F30A1D16BB9A0F00FB31C2 /* BADCustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BADCustomAlertView.h; sourceTree = "<group>"; };
+		C9F30A1E16BB9A0F00FB31C2 /* BADCustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BADCustomAlertView.m; sourceTree = "<group>"; };
+		C9F30A2016BB9A3800FB31C2 /* BADCustomAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BADCustomAlertView.xib; sourceTree = "<group>"; };
+		C9F30A3216BBA48500FB31C2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C9F30A3416BBA6AF00FB31C2 /* DazRing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazRing.png; sourceTree = "<group>"; };
+		C9F30A3516BBA6AF00FB31C2 /* DazStarOutline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazStarOutline.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C97D363C16994D0C00031A3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C93DE6DE16ED3E61007373B3 /* AVFoundation.framework in Frameworks */,
+				40099E4F16DD54B9000A6937 /* MessageUI.framework in Frameworks */,
+				C986771F16D4738200C86296 /* SystemConfiguration.framework in Frameworks */,
+				C986771E16D4737200C86296 /* CoreData.framework in Frameworks */,
+				C983813816C9D25B006C376E /* iAd.framework in Frameworks */,
+				C9F30A3316BBA48600FB31C2 /* QuartzCore.framework in Frameworks */,
+				C9B71D1516B51E7F00774C4A /* Social.framework in Frameworks */,
+				C9B71D0B16B51E2300774C4A /* Twitter.framework in Frameworks */,
+				C97D368E169A2AD900031A3E /* GameKit.framework in Frameworks */,
+				C97D364416994D0C00031A3E /* UIKit.framework in Frameworks */,
+				C97D364616994D0C00031A3E /* Foundation.framework in Frameworks */,
+				C97D364816994D0C00031A3E /* CoreGraphics.framework in Frameworks */,
+				C986772616D4741A00C86296 /* libGoogleAnalytics.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C93DE6E216EDAADD007373B3 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				409601C716F119C200117E08 /* Fireworks.mp3 */,
+				409601C516F1189100117E08 /* Firework.mp3 */,
+				C93DE6E516EDC664007373B3 /* Click2-Sebastian-759472264.mp3 */,
+				C93DE6E316EDAB1B007373B3 /* Fireworks And Crowd-SoundBible.com-81665534.wav */,
+				C93DE6E016ED3FE3007373B3 /* Cry No More.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		C97D363416994D0C00031A3E = {
+			isa = PBXGroup;
+			children = (
+				4096E95916EBC45D008A0516 /* icon.png */,
+				40393EC516EB0E370020E689 /* icon@2x.png */,
+				C97D364916994D0C00031A3E /* Quick-TacToe */,
+				C97D364216994D0C00031A3E /* Frameworks */,
+				C97D364016994D0C00031A3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C97D364016994D0C00031A3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C97D363F16994D0C00031A3E /* Quick-Tac Toe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C97D364216994D0C00031A3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C93DE6DD16ED3E61007373B3 /* AVFoundation.framework */,
+				C986772016D4741A00C86296 /* GAI.h */,
+				C986772116D4741A00C86296 /* GAITrackedViewController.h */,
+				C986772216D4741A00C86296 /* GAITracker.h */,
+				C986772316D4741A00C86296 /* GAITransaction.h */,
+				C986772416D4741A00C86296 /* GAITransactionItem.h */,
+				C986772516D4741A00C86296 /* libGoogleAnalytics.a */,
+				C986771D16D4737200C86296 /* CoreData.framework */,
+				C983813716C9D25A006C376E /* iAd.framework */,
+				C9F30A3216BBA48500FB31C2 /* QuartzCore.framework */,
+				C9B71D1416B51E7F00774C4A /* Social.framework */,
+				C9B71D1216B51E7500774C4A /* libsqlite3.0.dylib */,
+				C9B71D1016B51E6100774C4A /* Accounts.framework */,
+				C9B71D0E16B51E5300774C4A /* AdSupport.framework */,
+				C9B71D0C16B51E3500774C4A /* CoreFoundation.framework */,
+				C9B71D0A16B51E2300774C4A /* Twitter.framework */,
+				C9B71D0816B51E1500774C4A /* CoreLocation.framework */,
+				C9B71D0616B51E0D00774C4A /* CFNetwork.framework */,
+				C9B71D0416B51E0400774C4A /* MessageUI.framework */,
+				C9B71D0216B51DFC00774C4A /* Security.framework */,
+				C9B71D0016B51DF300774C4A /* SystemConfiguration.framework */,
+				C97D368D169A2AD900031A3E /* GameKit.framework */,
+				C97D364316994D0C00031A3E /* UIKit.framework */,
+				C97D364516994D0C00031A3E /* Foundation.framework */,
+				C97D364716994D0C00031A3E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C97D364916994D0C00031A3E /* Quick-TacToe */ = {
+			isa = PBXGroup;
+			children = (
+				40FC28B416D96FE5000A81D9 /* Default@2x.png */,
+				40FC28B516D96FE5000A81D9 /* Default.png */,
+				40FC28B616D96FE5000A81D9 /* Default-568h@2x.png */,
+				C97D365216994D0C00031A3E /* BADAppDelegate.h */,
+				C97D365316994D0C00031A3E /* BADAppDelegate.m */,
+				C97D365B16994D0C00031A3E /* MainStoryboard.storyboard */,
+				C93DE6E216EDAADD007373B3 /* Sounds */,
+				C986771A16D46D5C00C86296 /* Misc */,
+				C986771916D46D0A00C86296 /* Achievements */,
+				C97D368916997ABF00031A3E /* Gameplay */,
+				C97D3684169974BF00031A3E /* ViewControllers */,
+				C97D36711699600C00031A3E /* Assets */,
+				C97D364A16994D0C00031A3E /* Supporting Files */,
+			);
+			name = "Quick-TacToe";
+			path = QuickTicTacToe;
+			sourceTree = "<group>";
+		};
+		C97D364A16994D0C00031A3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C97D364B16994D0C00031A3E /* Quick-Tac Toe-Info.plist */,
+				C97D364C16994D0C00031A3E /* InfoPlist.strings */,
+				C97D364F16994D0C00031A3E /* main.m */,
+				C97D365116994D0C00031A3E /* Quick-Tac Toe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C97D36711699600C00031A3E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C93DE6EB16EF0D87007373B3 /* Start Button.png */,
+				C93DE6E916EF067A007373B3 /* Achievement Badge Back.png */,
+				C93DE6E716EEA86E007373B3 /* Achievements Mock.png */,
+				4026767F16E2CB4B00EC40A0 /* Facebook Icon1.png */,
+				409B96D716E1EADE00CF6A64 /* Share With Friends1.png */,
+				40B7882516E076AF0037D55C /* Envelope.png */,
+				40FC28C016D98A11000A81D9 /* Setup Piece Color Selected.png */,
+				40FC28C116D98A11000A81D9 /* Setup Chrome XO Pair Selected.png */,
+				40FC28C216D98A11000A81D9 /* Setup Gold XO Pair Selected.png */,
+				40FC28C316D98A11000A81D9 /* Setup Bling XO Pair Selected.png */,
+				40FC28BC16D98755000A81D9 /* Setup Difficulty Button Selected.png */,
+				C986771B16D46EA000C86296 /* Facebook Badge.png */,
+				C986771716D45F3D00C86296 /* Setup Difficulty Button.png */,
+				C986770F16D45CAC00C86296 /* Setup Box 1.png */,
+				C986771016D45CAC00C86296 /* Setup Box 2.png */,
+				C986771116D45CAC00C86296 /* Setup Box 3.png */,
+				C986771216D45CAC00C86296 /* Tap to start Image.png */,
+				C986770716D45B6700C86296 /* Setup Bling XO Pair.png */,
+				C986770816D45B6700C86296 /* Setup Chrome XO Pair.png */,
+				C986770916D45B6700C86296 /* Setup Gold XO Pair.png */,
+				C986770A16D45B6700C86296 /* Setup Piece Color.png */,
+				C986770316D4590A00C86296 /* Setup Page iPhone 4.png */,
+				C986770016D3DEC000C86296 /* arrow4.png */,
+				C983813C16CCC57E006C376E /* Done Badge Bling.png */,
+				C983813D16CCC580006C376E /* Done Badge Chrome.png */,
+				C983813E16CCC582006C376E /* Done Badge Gold.png */,
+				C983813F16CCC584006C376E /* Done Badge.png */,
+				C983813A16CCB6AC006C376E /* Wheel Button.png */,
+				C985972B16C42641009F320E /* Bottom Wheel Button1.png */,
+				C985972C16C42641009F320E /* Left Wheel Button1.png */,
+				C985972E16C42641009F320E /* Middle Wheel Button1.png */,
+				C985972F16C42641009F320E /* Right Wheel Button1.png */,
+				C985973016C42641009F320E /* Top Wheel Button1.png */,
+				C9F30A3416BBA6AF00FB31C2 /* DazRing.png */,
+				C9F30A3516BBA6AF00FB31C2 /* DazStarOutline.png */,
+				C9F30A1016BB78B100FB31C2 /* BlingO.png */,
+				C9F30A1116BB78B100FB31C2 /* BlingX.png */,
+				C9F30A1216BB78B100FB31C2 /* ChromeO.png */,
+				C9F30A1316BB78B100FB31C2 /* ChromeX.png */,
+				C9F30A1416BB78B200FB31C2 /* GoldO.png */,
+				C9F30A1516BB78B200FB31C2 /* GoldX.png */,
+				C9F30A0A16BB633800FB31C2 /* GameGrid.png */,
+				C9F30A0B16BB633800FB31C2 /* GameGridBackground.png */,
+				C9F30A0C16BB633800FB31C2 /* GridBar.png */,
+				C9F309F516BA563B00FB31C2 /* Glowing O-Yellow.png */,
+				C9F309F616BA563C00FB31C2 /* Glowing O.png */,
+				C9F309F716BA563C00FB31C2 /* Glowing X-Yellow.png */,
+				C9F309F816BA563C00FB31C2 /* Glowing X.png */,
+				C9F309ED16BA532A00FB31C2 /* pieceO.png */,
+				C9F309EE16BA532A00FB31C2 /* pieceSmallO.png */,
+				C9F309EF16BA532A00FB31C2 /* pieceSmallX.png */,
+				C9F309F016BA532A00FB31C2 /* pieceX.png */,
+				C9F309E716BA415A00FB31C2 /* Back and Next Buttons.png */,
+				C9F309E516BA3F9B00FB31C2 /* Main Menu Background.png */,
+				C97D3685169976E500031A3E /* tic-tac-toe-o.jpg */,
+				C97D3686169976E500031A3E /* tic-tac-toe-X.png */,
+				C97D3674169966B900031A3E /* Settings.jpg */,
+				C97D36721699602400031A3E /* TicTacToeBoard.jpg */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		C97D3684169974BF00031A3E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C97D366716994E6700031A3E /* BADMainMenu.h */,
+				C97D366816994E6700031A3E /* BADMainMenu.m */,
+				C97D365E16994D0C00031A3E /* BADViewController.h */,
+				C97D365F16994D0C00031A3E /* BADViewController.m */,
+				C97D36781699745400031A3E /* BADSettingsViewController.h */,
+				C97D36791699745400031A3E /* BADSettingsViewController.m */,
+				C97D367B1699747F00031A3E /* BADExtrasViewController.h */,
+				C97D367C1699747F00031A3E /* BADExtrasViewController.m */,
+				C97D367E1699749600031A3E /* BADSinglePlayerViewController.h */,
+				C97D367F1699749600031A3E /* BADSinglePlayerViewController.m */,
+				C9B71C6016AE763A00774C4A /* BADTwoPlayerViewController.h */,
+				C9B71C6116AE763A00774C4A /* BADTwoPlayerViewController.m */,
+				C97D3681169974AA00031A3E /* BADMultiplayerViewController.h */,
+				C97D3682169974AA00031A3E /* BADMultiplayerViewController.m */,
+				C97D3695169A781D00031A3E /* BADSingleSetupViewController.h */,
+				C97D3696169A781D00031A3E /* BADSingleSetupViewController.m */,
+				C9F30A0116BAE9DE00FB31C2 /* BADSetupSingle.h */,
+				C9F30A0216BAE9DE00FB31C2 /* BADSetupSingle.m */,
+				C9F30A0316BAE9DF00FB31C2 /* BADSetupSingle.xib */,
+				40099E4C16DD5481000A6937 /* BADEmailViewController.h */,
+				40099E4D16DD5481000A6937 /* BADEmailViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C97D368916997ABF00031A3E /* Gameplay */ = {
+			isa = PBXGroup;
+			children = (
+				C97D368A16997AEC00031A3E /* BADGameState.h */,
+				C97D368B16997AEC00031A3E /* BADGameState.m */,
+			);
+			name = Gameplay;
+			sourceTree = "<group>";
+		};
+		C986771916D46D0A00C86296 /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				C9CA319D16C38341000CAC4E /* BADAchievementNotifier.h */,
+				C9CA319E16C38342000CAC4E /* BADAchievementNotifier.m */,
+				C9CA319816C364F9000CAC4E /* BADAchievementView.h */,
+				C9CA319916C364FA000CAC4E /* BADAchievementView.m */,
+				C9CA319B16C365BB000CAC4E /* BADAchievementView.xib */,
+				C9CA319516C0A798000CAC4E /* BADAchievements.h */,
+				C9CA319616C0A799000CAC4E /* BADAchievements.m */,
+				C9CA319316C0A03A000CAC4E /* BADAchievements.xib */,
+			);
+			name = Achievements;
+			sourceTree = "<group>";
+		};
+		C986771A16D46D5C00C86296 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				C9F30A1D16BB9A0F00FB31C2 /* BADCustomAlertView.h */,
+				C9F30A1E16BB9A0F00FB31C2 /* BADCustomAlertView.m */,
+				C9F30A2016BB9A3800FB31C2 /* BADCustomAlertView.xib */,
+				C9CA318C16BC339D000CAC4E /* DazFireworksController.h */,
+				C9CA318D16BC339D000CAC4E /* DazFireworksController.m */,
+				C9B71C5C16AE645E00774C4A /* BADConstants.h */,
+				C9B71C5D16AE645E00774C4A /* BADConstants.m */,
+			);
+			name = Misc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C97D363E16994D0C00031A3E /* Quick-Tac Toe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C97D366316994D0C00031A3E /* Build configuration list for PBXNativeTarget "Quick-Tac Toe" */;
+			buildPhases = (
+				C97D363B16994D0C00031A3E /* Sources */,
+				C97D363C16994D0C00031A3E /* Frameworks */,
+				C97D363D16994D0C00031A3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quick-Tac Toe";
+			productName = QuickTicTacToe;
+			productReference = C97D363F16994D0C00031A3E /* Quick-Tac Toe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C97D363616994D0C00031A3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BAD;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Kyle Kendall";
+			};
+			buildConfigurationList = C97D363916994D0C00031A3E /* Build configuration list for PBXProject "Quick-Tac Toe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C97D363416994D0C00031A3E;
+			productRefGroup = C97D364016994D0C00031A3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C97D363E16994D0C00031A3E /* Quick-Tac Toe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C97D363D16994D0C00031A3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97D364E16994D0C00031A3E /* InfoPlist.strings in Resources */,
+				C97D365D16994D0C00031A3E /* MainStoryboard.storyboard in Resources */,
+				C97D36731699602400031A3E /* TicTacToeBoard.jpg in Resources */,
+				C97D3675169966B900031A3E /* Settings.jpg in Resources */,
+				C97D3687169976E500031A3E /* tic-tac-toe-o.jpg in Resources */,
+				C97D3688169976E500031A3E /* tic-tac-toe-X.png in Resources */,
+				C9F309E616BA3F9B00FB31C2 /* Main Menu Background.png in Resources */,
+				C9F309EA16BA415A00FB31C2 /* Back and Next Buttons.png in Resources */,
+				C9F309F116BA532A00FB31C2 /* pieceO.png in Resources */,
+				C9F309F216BA532A00FB31C2 /* pieceSmallO.png in Resources */,
+				C9F309F316BA532A00FB31C2 /* pieceSmallX.png in Resources */,
+				C9F309F416BA532A00FB31C2 /* pieceX.png in Resources */,
+				C9F309F916BA563C00FB31C2 /* Glowing O-Yellow.png in Resources */,
+				C9F309FA16BA563C00FB31C2 /* Glowing O.png in Resources */,
+				C9F309FB16BA563C00FB31C2 /* Glowing X-Yellow.png in Resources */,
+				C9F309FC16BA563C00FB31C2 /* Glowing X.png in Resources */,
+				C9F30A0516BAE9E000FB31C2 /* BADSetupSingle.xib in Resources */,
+				C9F30A0D16BB633800FB31C2 /* GameGrid.png in Resources */,
+				C9F30A0E16BB633800FB31C2 /* GameGridBackground.png in Resources */,
+				C9F30A0F16BB633800FB31C2 /* GridBar.png in Resources */,
+				C9F30A1616BB78B200FB31C2 /* BlingO.png in Resources */,
+				C9F30A1716BB78B200FB31C2 /* BlingX.png in Resources */,
+				C9F30A1816BB78B200FB31C2 /* ChromeO.png in Resources */,
+				C9F30A1916BB78B200FB31C2 /* ChromeX.png in Resources */,
+				C9F30A1A16BB78B200FB31C2 /* GoldO.png in Resources */,
+				C9F30A1B16BB78B200FB31C2 /* GoldX.png in Resources */,
+				C9F30A2116BB9A3800FB31C2 /* BADCustomAlertView.xib in Resources */,
+				C9F30A3616BBA6B000FB31C2 /* DazRing.png in Resources */,
+				C9F30A3716BBA6B000FB31C2 /* DazStarOutline.png in Resources */,
+				C9CA319416C0A03B000CAC4E /* BADAchievements.xib in Resources */,
+				C9CA319C16C365BB000CAC4E /* BADAchievementView.xib in Resources */,
+				C985973116C42641009F320E /* Bottom Wheel Button1.png in Resources */,
+				C985973216C42641009F320E /* Left Wheel Button1.png in Resources */,
+				C985973416C42641009F320E /* Middle Wheel Button1.png in Resources */,
+				C985973516C42641009F320E /* Right Wheel Button1.png in Resources */,
+				C985973616C42641009F320E /* Top Wheel Button1.png in Resources */,
+				C983813B16CCB6AE006C376E /* Wheel Button.png in Resources */,
+				C983814016CCC587006C376E /* Done Badge Bling.png in Resources */,
+				C983814116CCC587006C376E /* Done Badge Chrome.png in Resources */,
+				C983814216CCC587006C376E /* Done Badge Gold.png in Resources */,
+				C983814316CCC587006C376E /* Done Badge.png in Resources */,
+				C986770116D3DEC000C86296 /* arrow4.png in Resources */,
+				C986770516D4590A00C86296 /* Setup Page iPhone 4.png in Resources */,
+				C986770B16D45B6700C86296 /* Setup Bling XO Pair.png in Resources */,
+				C986770C16D45B6700C86296 /* Setup Chrome XO Pair.png in Resources */,
+				C986770D16D45B6700C86296 /* Setup Gold XO Pair.png in Resources */,
+				C986770E16D45B6700C86296 /* Setup Piece Color.png in Resources */,
+				C986771316D45CAC00C86296 /* Setup Box 1.png in Resources */,
+				C986771416D45CAC00C86296 /* Setup Box 2.png in Resources */,
+				C986771516D45CAC00C86296 /* Setup Box 3.png in Resources */,
+				C986771616D45CAC00C86296 /* Tap to start Image.png in Resources */,
+				C986771816D45F3D00C86296 /* Setup Difficulty Button.png in Resources */,
+				C986771C16D46EA000C86296 /* Facebook Badge.png in Resources */,
+				40FC28B716D96FE5000A81D9 /* Default@2x.png in Resources */,
+				40FC28B816D96FE5000A81D9 /* Default.png in Resources */,
+				40FC28B916D96FE5000A81D9 /* Default-568h@2x.png in Resources */,
+				40FC28BD16D98755000A81D9 /* Setup Difficulty Button Selected.png in Resources */,
+				40FC28C416D98A11000A81D9 /* Setup Piece Color Selected.png in Resources */,
+				40FC28C516D98A11000A81D9 /* Setup Chrome XO Pair Selected.png in Resources */,
+				40FC28C616D98A11000A81D9 /* Setup Gold XO Pair Selected.png in Resources */,
+				40FC28C716D98A11000A81D9 /* Setup Bling XO Pair Selected.png in Resources */,
+				40B7882616E076AF0037D55C /* Envelope.png in Resources */,
+				409B96D816E1EADE00CF6A64 /* Share With Friends1.png in Resources */,
+				4026768016E2CB4B00EC40A0 /* Facebook Icon1.png in Resources */,
+				40393EC616EB0E370020E689 /* icon@2x.png in Resources */,
+				4096E95A16EBC45D008A0516 /* icon.png in Resources */,
+				C93DE6E116ED3FE3007373B3 /* Cry No More.mp3 in Resources */,
+				C93DE6E416EDAB1B007373B3 /* Fireworks And Crowd-SoundBible.com-81665534.wav in Resources */,
+				C93DE6E616EDC664007373B3 /* Click2-Sebastian-759472264.mp3 in Resources */,
+				C93DE6E816EEA86E007373B3 /* Achievements Mock.png in Resources */,
+				C93DE6EA16EF067A007373B3 /* Achievement Badge Back.png in Resources */,
+				C93DE6EC16EF0D87007373B3 /* Start Button.png in Resources */,
+				409601C616F1189100117E08 /* Firework.mp3 in Resources */,
+				409601C816F119C200117E08 /* Fireworks.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C97D363B16994D0C00031A3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97D365016994D0C00031A3E /* main.m in Sources */,
+				C97D365416994D0C00031A3E /* BADAppDelegate.m in Sources */,
+				C97D366016994D0C00031A3E /* BADViewController.m in Sources */,
+				C97D366916994E6700031A3E /* BADMainMenu.m in Sources */,
+				C97D367A1699745400031A3E /* BADSettingsViewController.m in Sources */,
+				C97D367D1699747F00031A3E /* BADExtrasViewController.m in Sources */,
+				C97D36801699749600031A3E /* BADSinglePlayerViewController.m in Sources */,
+				C97D3683169974AA00031A3E /* BADMultiplayerViewController.m in Sources */,
+				C97D368C16997AEC00031A3E /* BADGameState.m in Sources */,
+				C97D3697169A781D00031A3E /* BADSingleSetupViewController.m in Sources */,
+				C9B71C5E16AE645E00774C4A /* BADConstants.m in Sources */,
+				C9B71C6216AE763A00774C4A /* BADTwoPlayerViewController.m in Sources */,
+				C9F30A0416BAE9E000FB31C2 /* BADSetupSingle.m in Sources */,
+				C9F30A1F16BB9A1000FB31C2 /* BADCustomAlertView.m in Sources */,
+				C9CA318E16BC339D000CAC4E /* DazFireworksController.m in Sources */,
+				C9CA319716C0A799000CAC4E /* BADAchievements.m in Sources */,
+				C9CA319A16C364FA000CAC4E /* BADAchievementView.m in Sources */,
+				C9CA319F16C38342000CAC4E /* BADAchievementNotifier.m in Sources */,
+				40099E4E16DD5481000A6937 /* BADEmailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C97D364C16994D0C00031A3E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C97D364D16994D0C00031A3E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C97D365B16994D0C00031A3E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C97D365C16994D0C00031A3E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C97D366116994D0C00031A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C97D366216994D0C00031A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C97D366416994D0C00031A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickTicTacToe/Quick-Tac Toe-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "QuickTicTacToe/Quick-Tac Toe-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/QuickTicTacToe/GAITracker\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "Quick-Tac Toe";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C97D366516994D0C00031A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickTicTacToe/Quick-Tac Toe-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "QuickTicTacToe/Quick-Tac Toe-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/QuickTicTacToe/GAITracker\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "Quick-Tac Toe";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C97D363916994D0C00031A3E /* Build configuration list for PBXProject "Quick-Tac Toe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97D366116994D0C00031A3E /* Debug */,
+				C97D366216994D0C00031A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C97D366316994D0C00031A3E /* Build configuration list for PBXNativeTarget "Quick-Tac Toe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97D366416994D0C00031A3E /* Debug */,
+				C97D366516994D0C00031A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C97D363616994D0C00031A3E /* Project object */;
+}

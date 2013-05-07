@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "BADGameState.h"
+#import "GAITrackedViewController.h"
+#import "BADAppDelegate.h"
 
 typedef enum {
     TTGameNotOver = 0,
@@ -24,7 +26,7 @@ typedef enum
     TTTimerOff = 1
 }TTTimerStatus;
 
-@interface BADTwoPlayerViewController : UIViewController<UIAlertViewDelegate>
+@interface BADTwoPlayerViewController : GAITrackedViewController<UIAlertViewDelegate>
 {
     NSTimer *stopWatchTimer; // Store the timer that fires after a certain time
     NSDate *startDate; // Stores the date of the click on the start button
@@ -46,9 +48,12 @@ typedef enum
 @property (strong, nonatomic) NSString *oPlayerName;
 @property (weak, nonatomic) IBOutlet UILabel *oPlayerLbl;
 @property (weak, nonatomic) IBOutlet UILabel *xPlayerLbl;
+@property (strong, nonatomic) BADAppDelegate *app;
 
 // UI Methods
 - (IBAction)spaceButtonTapped:(id)sender;
+- (IBAction)backBtnTUI:(id)sender;
+- (IBAction)newGameTUI:(id)sender;
 
 // Gameplay Methods
 -(void) initGame;

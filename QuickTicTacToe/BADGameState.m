@@ -12,14 +12,14 @@
 
 -(void)encodeWithCoder:(NSCoder *)aCoder
 {
-    [aCoder encodeObject:_boardState forKey:@"BoardState"];
-    [aCoder encodeInt:_playersTurn forKey:@"PlayersTurn"];
+    [aCoder encodeObject:self.boardState forKey:@"BoardState"];
+    [aCoder encodeInt:self.playersTurn forKey:@"PlayersTurn"];
 }
 
 -(id)initWithCoder:(NSCoder *)aDecoder
 {
-    _boardState = [aDecoder decodeObjectForKey:@"BoardState"];
-    _playersTurn = [aDecoder decodeIntForKey:@"PlayersTurn"];
+    self.boardState = [aDecoder decodeObjectForKey:@"BoardState"];
+    self.playersTurn = [aDecoder decodeIntForKey:@"PlayersTurn"];
     return self;
 }
 
@@ -27,8 +27,8 @@
 {
     self = [super init];
     if (self) {
-        _boardState = [[NSMutableArray alloc] initWithCapacity:9];
-        _playersTurn = TTxPlayerTurn;
+        self.boardState = [[NSMutableArray alloc] initWithCapacity:9];
+        self.playersTurn = TTxPlayerTurn;
     }
     return self;
 }

@@ -10,6 +10,7 @@
 #import <UIKit/UIKit.h>
 #import <GameKit/GameKit.h>
 #import "BADGameState.h"
+#import "GAITrackedViewController.h"
 
 typedef enum
 {
@@ -25,7 +26,7 @@ typedef enum {
     TTGameOverTie = 3
 }TTGameOverStatus;
 
-@interface BADMultiplayerViewController : UIViewController<UIAlertViewDelegate, GKPeerPickerControllerDelegate>
+@interface BADMultiplayerViewController : GAITrackedViewController<UIAlertViewDelegate, GKPeerPickerControllerDelegate>
 
 @property (weak, nonatomic) IBOutlet UILabel *statusLabel;
 @property (weak, nonatomic) IBOutlet UILabel *playerLabel;
@@ -48,6 +49,7 @@ typedef enum {
 
 // UI Methods
 - (IBAction)spaceButtonTapped:(id)sender;
+- (IBAction)backBtnTUI:(id)sender;
 
 // Gameplay Methods
 -(void) initGame;
